@@ -30,9 +30,7 @@
 		$op: null;
 		$media: null;
 
-		// Determine operator, breakpoint.
-
-			// Greater than or equal.
+		
 				@if (str-slice($query, 0, 2) == '>=') {
 
 					$op: 'gte';
